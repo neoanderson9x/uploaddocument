@@ -87,7 +87,7 @@ ActiveRecord::Schema.define(version: 2019_06_10_081706) do
     t.string "phone_number"
     t.string "password_digest"
     t.string "remember_digest"
-    t.integer "role", null: false, default: 0
+    t.integer "role", default: 0, null: false
     t.integer "point"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

@@ -1,4 +1,29 @@
 en:
+  users:
+    new:
+      title: "Sign up"
+      button_text: "Submit"
+  sessions:
+    new:
+      title: "Log in"
+      remember_me: "Remember me"
+  controller:
+    user_not_found: "User doesnt exist"
+  name: "Your name"
+  email: "Email"
+  password: "Password"
+  confirmation: "Password Confirmation"
+  phone_number: "Phone Number"
+  address: "Address"
+  error_announce: "This form contains "
+  error: "error"
+  new_user: "New user? "
+  require_user: "Require login first"
+  app_name: "Foodoo"
+  profile: "Profile"
+  settings: "Settings"
+  log_out: "Log out"
+  account_html: 'Account <b class="caret"></b>'
   hello: "Hello world"
   e_document_01: "EDocument01"
   layouts:
