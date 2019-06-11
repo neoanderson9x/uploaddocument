@@ -1,1 +1,23 @@
-main_title: "edocument"
+en:
+  hello: "Hello world"
+  e_document_01: "EDocument01"
+  layouts:
+    header:
+      framgia: "Framgia Document"
+      home: "Home"
+      help: "Help"
+      about: "About"
+      login: "Login"
+      signup: "Sign up"
+    footer:
+      f_exam: "F-Document"
+      author: "Nguyen Phan Thanh Trung & Phan Thi Quynh Trang"
+      the: "The"
+      by: "by"
+  static_pages:
+    home:
+      home: "Home"
+    help:
+      help: "Help"
+    about:
+      about: "About"
