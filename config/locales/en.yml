@@ -1,4 +1,12 @@
 en:
+  documents:
+    new:
+      please_log_in: "Please log in !"
+      upload_file: "Upload File"
+      compose_description: "Compose Description About Your Document..."
+      upload: "Upload"
+    create:
+      create_success: "Upload successfully!"
   users:
     new:
       title: "Sign up"

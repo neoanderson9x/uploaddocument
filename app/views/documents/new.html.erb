@@ -1,0 +1,20 @@
+<h2 class="tittle text-center"><%= t ".upload_file" %></h2>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for @document, html: {multipart: true} do |f| %>
+    <%= render "shared/error_messages", object: f.object %>
+      <%= f.label :name %>
+      <%= f.text_field :name, class: "form-control", required: "true" %>
+      <%= f.label :description %>
+      <div class="row">
+        <div class="col-md-6">
+          <%= f.label :attachment %>
+          <%= f.file_field :attachment %>
+        </div>
+        <div class="col-md-6">
+        </div>
+      </div>
+      <%= f.submit t(".upload"), class: "btn btn-default" %>
+    <% end %>
+  </div>
+</div>

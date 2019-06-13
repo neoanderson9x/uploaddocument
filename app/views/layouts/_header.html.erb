@@ -15,7 +15,10 @@
     </div>
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li class="navc"><%= link_to t(".home"), root_path %></li>
+        <li class="navc">
+          <%= link_to t(".upload"),
+            new_document_path, class: "fa fa-upload" %>
+        </li>
         <li class="navc"><%= link_to t(".help"), "/help" %></li>
         <li class="navc"><%= link_to t(".about"), "/about" %></li>
         <% if logged_in? %>
