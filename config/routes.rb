@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   root "static_pages#home"
-
   get "/help", to: "static_pages#help"
   get "/about", to: "static_pages#about"
   get "/contact", to: "static_pages#contact"
@@ -10,4 +9,5 @@ Rails.application.routes.draw do
   delete "/logout", to: "sessions#destroy"
   resources :users, only: %i(show new create)
   resources :documents
+  # get "download_document", to: "documents#download"
 end

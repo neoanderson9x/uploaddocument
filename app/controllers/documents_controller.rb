@@ -4,6 +4,18 @@ class DocumentsController < ApplicationController
   def new
     @document = Document.new
   end
+  def index
+    @documents = Document.all
+  end
+
+  def show
+    @document = Document.find(params[:id])
+  end
+
+  # def download
+  #   @document = Document.find(params[:id])
+  #   send_data @document.file.read, filename: @document.name
+  # end
 
   def create
     @document = current_user.documents.build(document_params)

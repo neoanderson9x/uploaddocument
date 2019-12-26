@@ -1,0 +1,4 @@
+<% provide(:title, "Categories") %>
+<% @documents.each do |abc| %>
+  <%= link_to abc.name, document_path(abc.id), class: "btn btn-primary"%>
+<% end %>

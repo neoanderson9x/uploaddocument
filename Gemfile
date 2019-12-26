@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
-ruby "2.5.5"
+ruby "2.6.3"
 
 gem "bcrypt"
 gem "bootsnap", ">= 1.1.0", require: false
@@ -24,10 +24,10 @@ gem "sass-rails", "~> 5.0"
 gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
 gem "will_paginate", "3.1.7"
-
+gem 'sqlite3'
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
-  gem "mysql2"
+
 end
 
 group :development do

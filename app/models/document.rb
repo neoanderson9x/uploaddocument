@@ -1,6 +1,6 @@
 class Document < ApplicationRecord
   belongs_to :user
-  belongs_to :category
+  # belongs_to :category
   has_many :comments
   has_many :reads
   has_many :favorites
